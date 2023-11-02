@@ -12,7 +12,6 @@ function App() {
     todos.splice(index,1)
   }
   const [todos,setTodos]= useState([
-  let todos=[
     {
       Sno:"1",
       title:"College",
@@ -38,7 +37,7 @@ function App() {
       title:"Company",
       desc:"Complete Project Report"
     }
-  ])
+  ]);
 
   let myvariable = 'learning'
   return (
